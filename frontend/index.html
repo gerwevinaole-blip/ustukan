@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>USTUKAN — Онлайн заказы</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>🍖 USTUKAN</h1>
+  <p>Онлайн-заказы — Бишкек / Ош</p>
+</header>
+
+<section id="client">
+  <h2>🛒 Меню</h2>
+  <select id="branch" onchange="loadMenu()">
+    <option value="1">Бишкек</option>
+    <option value="2">Ош</option>
+  </select>
+  <div id="menu"></div>
+
+  <h3>Корзина</h3>
+  <div id="cart"></div>
+  <button onclick="order()">Оформить заказ</button>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

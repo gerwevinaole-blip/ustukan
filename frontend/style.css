@@ -1,0 +1,6 @@
+body{font-family:Arial;margin:0;background:#f7f7f7}
+header{background:#ff4500;color:#fff;padding:20px;text-align:center}
+section{padding:20px}
+.card{background:#fff;padding:15px;margin-bottom:15px;border-radius:8px}
+button{background:#ff4500;color:#fff;border:none;padding:10px 15px;border-radius:5px;cursor:pointer}
+input,select{padding:8px;width:100%;margin-bottom:10px}
